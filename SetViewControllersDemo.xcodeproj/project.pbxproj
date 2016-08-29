@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364996181D73E1DE00645977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996171D73E1DE00645977 /* main.m */; };
+		3649961B1D73E1DE00645977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649961A1D73E1DE00645977 /* AppDelegate.m */; };
+		3649961E1D73E1DE00645977 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649961D1D73E1DE00645977 /* RootViewController.m */; };
+		364996211D73E1DE00645977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3649961F1D73E1DE00645977 /* Main.storyboard */; };
+		364996241D73E1DE00645977 /* SetViewControllersDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364996221D73E1DE00645977 /* SetViewControllersDemo.xcdatamodeld */; };
+		364996261D73E1DE00645977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364996251D73E1DE00645977 /* Assets.xcassets */; };
+		364996291D73E1DE00645977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364996271D73E1DE00645977 /* LaunchScreen.storyboard */; };
+		364996321D73E21400645977 /* MNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996311D73E21400645977 /* MNavigationController.m */; };
+		364996351D73E2B300645977 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996341D73E2B300645977 /* AViewController.m */; };
+		364996381D73E2BF00645977 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996371D73E2BF00645977 /* BViewController.m */; };
+		3649963B1D73E2CB00645977 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649963A1D73E2CB00645977 /* CViewController.m */; };
+		3649963E1D740CD000645977 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649963D1D740CD000645977 /* DViewController.m */; };
+		364996411D7416A400645977 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996401D7416A400645977 /* UIViewController+BackButtonHandler.m */; };
+		364996451D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996441D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		364996481D74343400645977 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364996471D74343400645977 /* MViewController.m */; };
+		3649964B1D7434ED00645977 /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649964A1D7434ED00645977 /* FViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		364996131D73E1DE00645977 /* SetViewControllersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetViewControllersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364996171D73E1DE00645977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364996191D73E1DE00645977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3649961A1D73E1DE00645977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3649961C1D73E1DE00645977 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3649961D1D73E1DE00645977 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		364996201D73E1DE00645977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364996231D73E1DE00645977 /* SetViewControllersDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SetViewControllersDemo.xcdatamodel; sourceTree = "<group>"; };
+		364996251D73E1DE00645977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364996281D73E1DE00645977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3649962A1D73E1DE00645977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364996301D73E21400645977 /* MNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNavigationController.h; sourceTree = "<group>"; };
+		364996311D73E21400645977 /* MNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNavigationController.m; sourceTree = "<group>"; };
+		364996331D73E2B300645977 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		364996341D73E2B300645977 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		364996361D73E2BF00645977 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		364996371D73E2BF00645977 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		364996391D73E2CB00645977 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		3649963A1D73E2CB00645977 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		3649963C1D740CD000645977 /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		3649963D1D740CD000645977 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		3649963F1D7416A400645977 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		364996401D7416A400645977 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		364996431D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		364996441D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		364996461D74343400645977 /* MViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		364996471D74343400645977 /* MViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+		364996491D7434ED00645977 /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		3649964A1D7434ED00645977 /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364996101D73E1DE00645977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3649960A1D73E1DE00645977 = {
+			isa = PBXGroup;
+			children = (
+				364996151D73E1DE00645977 /* SetViewControllersDemo */,
+				364996141D73E1DE00645977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		364996141D73E1DE00645977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364996131D73E1DE00645977 /* SetViewControllersDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364996151D73E1DE00645977 /* SetViewControllersDemo */ = {
+			isa = PBXGroup;
+			children = (
+				364996421D741EF100645977 /* FDFullscreenPopGesture */,
+				3649963F1D7416A400645977 /* UIViewController+BackButtonHandler.h */,
+				364996401D7416A400645977 /* UIViewController+BackButtonHandler.m */,
+				364996191D73E1DE00645977 /* AppDelegate.h */,
+				3649961A1D73E1DE00645977 /* AppDelegate.m */,
+				364996331D73E2B300645977 /* AViewController.h */,
+				364996341D73E2B300645977 /* AViewController.m */,
+				364996361D73E2BF00645977 /* BViewController.h */,
+				364996371D73E2BF00645977 /* BViewController.m */,
+				364996391D73E2CB00645977 /* CViewController.h */,
+				3649963A1D73E2CB00645977 /* CViewController.m */,
+				3649963C1D740CD000645977 /* DViewController.h */,
+				3649963D1D740CD000645977 /* DViewController.m */,
+				364996491D7434ED00645977 /* FViewController.h */,
+				3649964A1D7434ED00645977 /* FViewController.m */,
+				3649961C1D73E1DE00645977 /* RootViewController.h */,
+				3649961D1D73E1DE00645977 /* RootViewController.m */,
+				364996461D74343400645977 /* MViewController.h */,
+				364996471D74343400645977 /* MViewController.m */,
+				364996301D73E21400645977 /* MNavigationController.h */,
+				364996311D73E21400645977 /* MNavigationController.m */,
+				364996221D73E1DE00645977 /* SetViewControllersDemo.xcdatamodeld */,
+				364996161D73E1DE00645977 /* Supporting Files */,
+			);
+			path = SetViewControllersDemo;
+			sourceTree = "<group>";
+		};
+		364996161D73E1DE00645977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3649961F1D73E1DE00645977 /* Main.storyboard */,
+				364996251D73E1DE00645977 /* Assets.xcassets */,
+				364996271D73E1DE00645977 /* LaunchScreen.storyboard */,
+				3649962A1D73E1DE00645977 /* Info.plist */,
+				364996171D73E1DE00645977 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364996421D741EF100645977 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				364996431D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.h */,
+				364996441D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364996121D73E1DE00645977 /* SetViewControllersDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3649962D1D73E1DE00645977 /* Build configuration list for PBXNativeTarget "SetViewControllersDemo" */;
+			buildPhases = (
+				3649960F1D73E1DE00645977 /* Sources */,
+				364996101D73E1DE00645977 /* Frameworks */,
+				364996111D73E1DE00645977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetViewControllersDemo;
+			productName = SetViewControllersDemo;
+			productReference = 364996131D73E1DE00645977 /* SetViewControllersDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3649960B1D73E1DE00645977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CHLMA;
+				TargetAttributes = {
+					364996121D73E1DE00645977 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3649960E1D73E1DE00645977 /* Build configuration list for PBXProject "SetViewControllersDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3649960A1D73E1DE00645977;
+			productRefGroup = 364996141D73E1DE00645977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364996121D73E1DE00645977 /* SetViewControllersDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364996111D73E1DE00645977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364996291D73E1DE00645977 /* LaunchScreen.storyboard in Resources */,
+				364996261D73E1DE00645977 /* Assets.xcassets in Resources */,
+				364996211D73E1DE00645977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3649960F1D73E1DE00645977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364996411D7416A400645977 /* UIViewController+BackButtonHandler.m in Sources */,
+				3649963E1D740CD000645977 /* DViewController.m in Sources */,
+				364996381D73E2BF00645977 /* BViewController.m in Sources */,
+				364996451D741EF100645977 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				364996351D73E2B300645977 /* AViewController.m in Sources */,
+				3649961E1D73E1DE00645977 /* RootViewController.m in Sources */,
+				3649961B1D73E1DE00645977 /* AppDelegate.m in Sources */,
+				364996241D73E1DE00645977 /* SetViewControllersDemo.xcdatamodeld in Sources */,
+				364996481D74343400645977 /* MViewController.m in Sources */,
+				364996181D73E1DE00645977 /* main.m in Sources */,
+				3649963B1D73E2CB00645977 /* CViewController.m in Sources */,
+				364996321D73E21400645977 /* MNavigationController.m in Sources */,
+				3649964B1D7434ED00645977 /* FViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3649961F1D73E1DE00645977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364996201D73E1DE00645977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364996271D73E1DE00645977 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364996281D73E1DE00645977 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3649962B1D73E1DE00645977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3649962C1D73E1DE00645977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3649962E1D73E1DE00645977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetViewControllersDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SetViewControllersDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3649962F1D73E1DE00645977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetViewControllersDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SetViewControllersDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3649960E1D73E1DE00645977 /* Build configuration list for PBXProject "SetViewControllersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3649962B1D73E1DE00645977 /* Debug */,
+				3649962C1D73E1DE00645977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3649962D1D73E1DE00645977 /* Build configuration list for PBXNativeTarget "SetViewControllersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3649962E1D73E1DE00645977 /* Debug */,
+				3649962F1D73E1DE00645977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		364996221D73E1DE00645977 /* SetViewControllersDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				364996231D73E1DE00645977 /* SetViewControllersDemo.xcdatamodel */,
+			);
+			currentVersion = 364996231D73E1DE00645977 /* SetViewControllersDemo.xcdatamodel */;
+			path = SetViewControllersDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3649960B1D73E1DE00645977 /* Project object */;
+}
